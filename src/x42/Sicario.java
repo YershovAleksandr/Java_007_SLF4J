@@ -36,7 +36,6 @@ public class Sicario {
         finally {
             log.debug("Done");
         }
-
     }
 
 }
