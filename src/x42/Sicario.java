@@ -29,7 +29,6 @@ public class Sicario {
         catch (ArithmeticException e2){
             log.error("1", e2);
             //e2.printStackTrace();
-            log.error("Catch22");
             log.error("~" + e2 + "~");
         }
         catch (RuntimeException e3){
