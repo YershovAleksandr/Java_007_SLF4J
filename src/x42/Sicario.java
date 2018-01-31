@@ -26,12 +26,15 @@ public class Sicario {
         catch (ArrayIndexOutOfBoundsException e){
             log.error("Array fuck", e);
         }
-        catch (RuntimeException e2){
+        catch (ArithmeticException e2){
             log.error("Catch2");
             log.error("1", e2);
             //e2.printStackTrace();
             log.error("Catch22");
             log.error("~" + e2 + "~");
+        }
+        catch (RuntimeException e3){
+            log.error("Runtime exception ", e3);
         }
         finally {
             log.debug("Done");
