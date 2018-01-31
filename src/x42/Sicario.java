@@ -19,7 +19,7 @@ public class Sicario {
             int i = 10;
 
             throw new ArrayIndexOutOfBoundsException();
-            //throw new ArrayStoreException();
+            throw new ArrayStoreException();
 
             i /= 0;
 
