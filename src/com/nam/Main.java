@@ -11,7 +11,6 @@ public class Main {
     public static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
-	// write your code here
 
         log.info("Begin");
 
