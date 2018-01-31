@@ -27,7 +27,6 @@ public class Sicario {
             log.error("Array fuck", e);
         }
         catch (ArithmeticException e2){
-            log.error("Catch2");
             log.error("1", e2);
             //e2.printStackTrace();
             log.error("Catch22");
