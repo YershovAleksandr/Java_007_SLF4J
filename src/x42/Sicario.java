@@ -3,6 +3,8 @@ package x42;
 import com.nam.Main;
 import org.slf4j.Logger;
 
+import javax.security.auth.login.FailedLoginException;
+
 public class Sicario {
 
     public Logger log = Main.log;
@@ -16,11 +18,15 @@ public class Sicario {
         try{
             int i = 10;
 
-            i /= 0;
+            //throw new ArrayIndexOutOfBoundsException();
+            throw new ArrayStoreException();
 
-            int c[] = {42};
+            //i /= 0;
 
-            c[42] = 99;
+            //int c[] = {42};
+
+//            c[42] = 99;
+
         }
         catch (ArrayIndexOutOfBoundsException e){
             log.error("Array fuck", e);
