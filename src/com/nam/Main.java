@@ -13,10 +13,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        log.info("Info");
-        log.warn("Warning");
-        log.debug("Debug");
-        log.error("Error");
+        log.info("Begin");
 
         Thread th = new Thread(new Runnable() {
             @Override
@@ -38,6 +35,8 @@ public class Main {
         });
 
         th.start();
+
+        log.info("End");
 
     }
 }
