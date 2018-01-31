@@ -13,7 +13,6 @@ public class Sicario {
     }
 
     private void go(){
-
         try{
             int i = 10;
 
