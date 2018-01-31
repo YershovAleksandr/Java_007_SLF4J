@@ -21,11 +21,11 @@ public class Sicario {
             //throw new ArrayIndexOutOfBoundsException();
             //throw new ArrayStoreException();
 
-            //i /= 0;
+            i /= 0;
 
-            //int c[] = {42};
+            int c[] = {42};
 
-//            c[42] = 99;
+            c[42] = 99;
 
         }
         catch (ArrayIndexOutOfBoundsException e){
