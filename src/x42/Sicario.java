@@ -18,7 +18,7 @@ public class Sicario {
         try{
             int i = 10;
 
-            //throw new ArrayIndexOutOfBoundsException();
+            throw new ArrayIndexOutOfBoundsException();
             //throw new ArrayStoreException();
 
             i /= 0;
